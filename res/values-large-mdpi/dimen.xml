@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_third_shelf">70dp</dimen>
+    <dimen name="padding_third_shelf_plash">40dp</dimen>
+    <dimen name="padding_shelf_plash">0dp</dimen>
+    
+    <dimen name="padding_startsctr_shelf_measure_unplash">58dp</dimen>
+    <dimen name="padding_startsctr_third_shelf_measure_unplash">100dp</dimen>
+    
+    <dimen name="padding_second_plash">10dp</dimen>
+        
+    <dimen name="padding_startsctr_third">45dp</dimen>
+    
+</resources>

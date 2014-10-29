@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="5dip"
+	android:orientation="horizontal"
+		android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip"
+>
+
+	<ImageView
+	    android:id="@+id/bookmark_item_icon"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:singleLine="true"
+	    android:padding="5dp"
+	    android:src="@drawable/i_cutata" />
+
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5dip"
+		android:paddingRight="8dp"
+		android:orientation="vertical"
+		android:layout_weight="1"
+	>
+		<TextView
+			android:id="@+id/bookmark_item_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="false"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			
+		/>
+		<TextView
+			android:id="@+id/bookmark_item_booktitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="1dip"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+		/>
+	</LinearLayout>
+</LinearLayout>

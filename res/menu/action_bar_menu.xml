@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/zoom_in"
+        android:icon="@drawable/theme_black_ic_zoom_p"
+          android:title="zoom  in"
+          android:showAsAction="always" />
+    <item android:id="@+id/zoom_out"
+        android:icon="@drawable/theme_black_ic_zoom_m"
+          android:title="zoom  out"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/search"
+        android:icon="@drawable/icon_search"
+          android:title="search"
+          android:showAsAction="always" />
+</menu>

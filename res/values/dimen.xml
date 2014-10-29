@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_lib_img">8dp</dimen>
+    <dimen name="padding_startsctr_third">20dp</dimen>
+    <dimen name="padding_startsctr_third_unplash">20dp</dimen>
+    
+    <dimen name="additional_height_shelf_unplash">14dp</dimen>
+    <dimen name="additional_height_shelf_unplash_third">24dp</dimen>
+
+    <dimen name="additional_height_shelf_plash">2dp</dimen>
+    <dimen name="additional_height_shelf_plash_third">30dp</dimen>
+    <dimen name="additional_height_shelf_plash_last">30dp</dimen>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:id="@+id/quotes_activity_admob_place"
+	android:layout_height="fill_parent"
+	xmlns:app1="http://schemas.android.com/apk/res-auto">
+	<com.google.android.gms.ads.AdView
+	    xmlns:ads="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/adView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    app1:adSize="BANNER"
+	    app1:adUnitId="use-your-own-id" >
+	</com.google.android.gms.ads.AdView>
+
+	<ListView
+	    android:id="@+id/search_results"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp"
+	    android:layout_alignParentBottom="true"
+	    android:visibility="gone"
+	    android:layout_alignParentLeft="true" >
+	</ListView>
+
+	<ListView
+	    android:id="@+id/all_books"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp"
+	    android:layout_above="@+id/search_results"
+	    android:visibility="gone"
+	    android:layout_alignParentLeft="true" >
+	</ListView>
+
+	<ListView
+	    android:id="@+id/this_book"
+	    android:visibility="gone"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp"
+	    android:layout_above="@+id/all_books"
+	    android:layout_alignParentLeft="true" >
+	</ListView>
+	
+</RelativeLayout>

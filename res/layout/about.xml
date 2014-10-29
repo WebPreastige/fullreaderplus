@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/bg_white"
+   xmlns:app1="http://schemas.android.com/apk/res-auto">
+
+	<com.google.android.gms.ads.AdView
+	    xmlns:ads="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/adView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    app1:adSize="BANNER"
+	    app1:adUnitId="use-your-own-id" >
+	</com.google.android.gms.ads.AdView>
+
+	<TextView
+	    android:id="@+id/desc_tv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_margin="10dp"
+	    android:text="Для того чтобы убрать рекламу нужно приобрести дополнение «FullReader Plus». При активации данного дополнения в FullReader будет убрана реклама и добавлена возможность просматривать файлы в формате DOCX (просмотр docx доступен с версии Android 4+)"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#000000" />
+
+	<Button
+	    android:id="@+id/buy_btn"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/desc_tv"
+	    android:layout_centerHorizontal="true"
+	    android:text="Buy"
+	    android:textColor="#000000"
+	    android:textSize="8pt" />
+  
+</RelativeLayout>

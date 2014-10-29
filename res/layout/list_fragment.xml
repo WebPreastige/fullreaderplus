@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/quotes_frame_layout"
+    android:background="@drawable/bg_white"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" >
+    
+    
+    <com.google.android.gms.ads.AdView
+	    xmlns:ads="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/adView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom|center_horizontal"
+	    app1:adSize="BANNER"
+	    app1:adUnitId="use-your-own-id" >
+	</com.google.android.gms.ads.AdView>
+	
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_marginBottom="50dp"
+        android:divider="#60000000"
+        android:dividerHeight="1dp" >
+
+    </ListView>
+</FrameLayout>

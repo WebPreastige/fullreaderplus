@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/faq_activity_admob_place"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:id="@+id/img_faq_white_bg"
+        android:src="@drawable/bg_white"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:divider="#000000"
+        android:fadingEdge="none"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1dp" >
+
+    </ListView>
+    <com.google.android.gms.ads.AdView
+	    xmlns:ads="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/adView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom|center_horizontal"
+	    ads:adUnitId="use-your-own-id"
+	    ads:adSize="BANNER"/>
+
+</FrameLayout>

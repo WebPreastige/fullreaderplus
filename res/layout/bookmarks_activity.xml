@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/bookmarks_list"
+        android:layout_width="match_parent"
+        android:divider="#000000"
+        android:dividerHeight="1dp"
+        android:layout_height="wrap_content" >
+    </ListView>
+    
+    <com.google.android.gms.ads.AdView
+	    xmlns:ads="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/adView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom|center_horizontal"
+	    ads:adUnitId="use-your-own-id"
+	    ads:adSize="BANNER"/>
+
+</FrameLayout>

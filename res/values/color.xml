@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="canvas">#FF404040</color>
+    <color name="bar">#C0202020</color>
+    
+    <!-- THEME WHITE TREE -->
+    <color name="white_tree_text">@drawable/text_color</color>
+    <color name="white_tree_prgbar_full">#9b887b</color>
+    <color name="white_tree_prgbar_alpha">#809b887b</color>
+    <color name="white_tree_prgbar_empty">#5e5c58</color>
+    <color name="white_tree_prgbar_slider_full">#9b887b</color>
+    <color name="white_tree_prgbar_slider_empty">#999b887b</color>
+
+    <!-- THEME BLACK -->
+    <color name="theme_black_text">@drawable/text_color_theme_black</color>
+    <color name="theme_black_prgbar_full">#33b5e5</color>
+    <color name="theme_black_prgbar_alpha">#809b887b</color>
+    <color name="theme_black_prgbar_empty">#80000000</color>
+    <color name="theme_black_prgbar_slider_full">#33b5e5</color>
+    <color name="theme_black_prgbar_slider_empty">#8033b5e5</color>
+
+    <!-- THEME LAMINAT -->
+    <color name="theme_laminat_text">@drawable/text_color_theme_laminat</color>
+    <color name="theme_laminat_prgbar_full">#ffffdc</color>
+    <color name="theme_laminat_prgbar_alpha">#809b887b</color>
+    <color name="theme_laminat_prgbar_empty">#80000000</color>
+    <color name="theme_laminat_prgbar_slider_full">#AAAAAA</color>
+    <color name="theme_laminat_prgbar_slider_empty">#99AAAAAA</color>
+
+    <!-- THEME RED TREE -->
+    <color name="theme_redtree_text">@drawable/text_color_theme_redtree</color>
+    <color name="theme_redtree_prgbar_full">#FFFFFF</color>
+    <color name="theme_redtree_prgbar_alpha">#809b887b</color>
+    <color name="theme_redtree_prgbar_empty">#80000000</color>
+    <color name="theme_redtree_prgbar_slider_full">#ffffff</color>
+    <color name="theme_redtree_prgbar_slider_empty">#80ffffff</color>
+
+    <!-- THEME STELLAJ -->
+    <color name="theme_stellaj_text">@drawable/text_color_theme_stellaj</color>
+    <color name="theme_stellaj_prgbar_full">#ffe8b9</color>
+    <color name="theme_stellaj_prgbar_alpha">#809b887b</color>
+    <color name="theme_stellaj_prgbar_empty">#80000000</color>
+    <color name="theme_stellaj_prgbar_slider_full">#ffe8b9</color>
+    <color name="theme_stellaj_prgbar_slider_empty">#80ffe8b9</color>
+    
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+
+</resources>

@@ -1,0 +1,330 @@
+<resources>
+    <string name="empty_string"/>
+    <string name="app_name">FullReader+</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+ 	<string name="menu_chapters">Chapters</string>
+    <string name="title_activity_main">Comic Viewer</string>
+    <string name="menu_pick_comic">Pick Comic</string>
+    <string name="not_implemented">Not implemented (yet!)</string>
+    <string name="button_open">Read</string>
+    <string name="menu_bookmark">Bookmark</string>
+    <string name="bookmark_dialog_title">Set/Restore Bookmark</string>
+    <string name="bookmark_dialog_set_button">Set</string>
+    <string name="bookmark_dialog_restore_button">Restore</string>
+    <string name="no_comics_found">No Comics Found</string>
+    <string name="last_page">First or Last page</string>
+    <string name="sd_card_not_mounted">SD card not mounted</string>
+    <string name="no_chapters_found">No chapters found</string>
+    
+    <string name="menu_chapters_de">Kapitel</string>
+    <string name="title_activity_main_de">Comic Viewer</string>
+    <string name="menu_pick_comic_de">Pick Comic</string>
+    <string name="not_implemented_de">Nicht implementiert (noch)</string>
+    <string name="button_open_de">Taste geöffnet</string>
+    <string name="menu_bookmark_de">Menü Lesezeichen</string>
+    <string name="bookmark_dialog_title_de">Dialoglesezeichentitel</string>
+    <string name="bookmark_dialog_set_button_de">Dialog Lesezeichen Set-Taste</string>
+    <string name="no_comics_found_de">keine Comics gefunden</string>
+    <string name="last_page_de">Fletzte Seite</string>
+    <string name="sd_card_not_mounted_de">SD-Karte nicht montiert</string>
+    <string name="no_chapters_found_de">keine Kapiteln</string>
+    
+    <string name="menu_chapters_ru">Разделы</string>
+    <string name="title_activity_main_ru">Просмотрщик комиксов</string>
+    <string name="menu_pick_comic_ru">Выбрать комикс</string>
+    <string name="not_implemented_ru">Не добавлено (еще)</string>
+    <string name="button_open_ru">Читать</string>
+    <string name="menu_bookmark_ru">Закладка</string>
+    <string name="bookmark_dialog_title_ru">Установить/Вернуть закладку</string>
+    <string name="bookmark_dialog_set_button_ru">Установить</string>
+    <string name="bookmark_dialog_restore_button_ru">Вернуть</string>
+    <string name="no_comics_found_ru">Комиксов не найдено</string>
+    <string name="last_page_ru">Первая или последняя страница</string>
+    <string name="sd_card_not_mounted_ru">SD карта не найдена</string>
+    <string name="no_chapters_found_ru">Разделов не найдено</string>
+    
+    
+    <string name="menu_chapters_fr">Chapitres</string>
+    <string name="title_activity_main_fr">Comic Viewer</string>
+    <string name="menu_pick_comic_fr">Choisissez Comic</string>
+    <string name="not_implemented_fr">Pas mis en œuvre (encore!)</string>
+    <string name="button_open_fr">bouton d ouverture</string>
+    <string name="menu_bookmark_fr">Menu signet</string>
+    <string name="bookmark_dialog_title_fr">titre de dialogue de signets</string>
+    <string name="bookmark_dialog_set_button_fr">bouton de réglage de dialogue de signets</string>
+    <string name="bookmark_dialog_restore_button_fr">dialogue signet bouton de restauration</string>
+    <string name="no_comics_found_fr">trouvé aucun comics</string>
+    <string name="last_page_fr">dernière page</string>
+    <string name="sd_card_not_mounted_fr">carte sd pas monté</string>
+    <string name="no_chapters_found_fr">trouvé aucun chapitres</string>
+    
+    <string name="menu_chapters_uk">Chapters</string>
+    <string name="title_activity_main_uk">Comic Viewer</string>
+    <string name="menu_pick_comic_uk">Pick Comic</string>
+    <string name="not_implemented_uk">Not implemented (yet!)</string>
+    <string name="button_open_uk">Read</string>
+    <string name="menu_bookmark_uk">Bookmark</string>
+    <string name="bookmark_dialog_title_uk">Set/Restore Bookmark</string>
+    <string name="bookmark_dialog_set_button_uk">Set</string>
+    <string name="bookmark_dialog_restore_button_uk">Restore</string>
+    <string name="no_comics_found_uk">No Comics Found</string>
+    <string name="last_page_uk">First or Last page</string>
+    <string name="sd_card_not_mounted_uk">SD card not mounted</string>
+    <string name="no_chapters_found_uk">No chapters found</string>
+    
+    
+    
+    <string name="no_media_warning">Storage Media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="open_failed">Unable to open document</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_backwards">Search backwards</string>
+    <string name="search_forwards">Search forwards</string>
+    <string name="search_document">Search document</string>
+    <string name="picker_title">Pdf Writer &amp; Reader</string>
+    <string name="outline_title">Table of Contents</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="text_not_found">Text not found</string>
+    <string name="searching_">Searching...</string>
+    <string name="link_control">Link highlighting and enabling</string>
+    <string name="no_further_occurences_found">No further occurences found</string>
+    <string name="gen_pdf">Generate pdf</string>
+    <string name="view_pdf">View pdf</string>
+    <string name="progress_title">Generateing pdf...</string>
+    
+    <string name="wallpaper_alignment_key">wallpaper_alignment</string>
+    <string name="wallpaper_alignment_title">Background alignment</string>
+    <string name="wallpaper_alignment_summary">wallpaper_alignment_list</string>
+    <string-array name="wallpaper_alignment_entry_text">
+        <item>Tile</item>
+        <item>Center</item>
+        <item>Fill</item>
+        <item>Original</item>
+    </string-array>
+    <string-array name="wallpaper_alignment_entry_values">
+        <item>wallpaper_tile</item>
+        <item>wallpaper_center</item>
+        <item>wallpaper_fill</item>
+        <item>wallpaper_original</item>
+    </string-array>
+    
+    <string name="toast_error_generic">Something bad happened. Couldn\'t open file.</string>
+    <string name="toast_error_access_file">Couldn\'t access file.</string>
+    <string name="toast_error_find_file">Couldn\'t find file. Maybe it doesn\'t exist any longer?</string>
+    <string name="toast_error_illegal_file">This doesn\'t seem to be a supported file format.</string>
+    <string name="toast_error_open_file">Couldn\'t open file. Only .odt and .ods documents are supported!</string>
+    <string name="toast_error_out_of_memory">Phone out of memory! Too many pictures, or too big file.</string>
+    <string name="toast_error_password_protected">Document is password-protected</string>
+    <string name="toast_error_storage">External storage not available. Couldn\'t read file.</string>
+    <string name="toast_info_limited">Only parts of the document are being displayed in order to improve performance. Click here if you want to see the whole document</string>
+    <string name="dialog_recent_title">Recent documents</string>
+    <string name="dialog_submit_file_title">Choose an app to send us your file</string>
+    <string name="dialog_submit_file">Do you want to send us the file so we can take a look and probably make it work with the next update?</string>
+    <string name="dialog_error_send_error_only">Send only the error</string>
+    <string name="dialog_no_filemanager">No file explorer found. We recommend one of these:</string>
+    <string name="dialog_choose_filemanager">Open document via:</string>
+    <string name="dialog_loading_title">Loading...</string>
+    <string name="dialog_uploading_title">Uploading...</string>
+    <string name="dialog_loading_message">This could take a few minutes, depending on the structure of your document and the processing power of your phone.</string>
+    <string name="dialog_remove_ads_title">Purchase new features:</string>
+    <string name="dialog_upload_file">We aren\'t able to open this document, because we don\'t support its format. Do you want to upload it to our server temporarily, so we can display it for you anyway?</string>
+    <string name="dialog_title_choose_file">Choose file from device</string>
+    <string name="dialog_list_no_documents_found">No documents found</string>
+    <string name="dialog_list_searching_documents">Searching for documents on your device... This could take some time.</string>
+    <string name="menu_recent">Recent documents</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">About</string>
+    <string name="menu_remove_ads">Feature Store</string>
+    <string name="menu_reload">Reload without limit</string>
+    <string name="menu_fullscreen">Fullscreen mode</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_cloud_print">Print</string>
+    <string name="menu_tts">Text-To-Speech</string>
+    <string name="menu_media_route">External Display</string>
+    <string name="crouton_error_billing">Failed to initialize Google Play In-App Billing</string>
+    <string name="crouton_leave_fullscreen">Press Back to leave fullscreen mode</string>
+    <string name="crouton_chromecast_failed">Connection to Chromecast failed</string>
+    <string name="crouton_error_open_app">Couldn\'t open this app.</string>
+    <string name="crouton_remove_ads">Don\'t like advertisements? Click here to remove them!</string>
+    <string name="action_find_previous">Previous</string>
+    <string name="action_find_next">Next</string>
+    <string name="action_find_on_page">Find on page</string>
+    <string name="action_tts_play">Play</string>
+    <string name="action_tts_pause">Pause</string>
+    <string name="action_tts_next">Next</string>
+    <string name="action_tts_previous">Previous</string>
+    <string name="action_edit_save">Save</string>
+    <string name="action_edit_help">Help!?</string>
+    <string name="action_edit_banner">Edit your document below and press Save</string>
+    <string name="showcase_edit_title">Edit your documents on the go!</string>
+    <string name="showcase_edit_detail">We do now support editing of documents! Press the pen shown at the top to enter edit-mode. After you have finished modifying your document, press Save. The document is then saved on your sdcard and reloaded in read-only mode again.</string>
+    <string name="showcase_ad_title">Support the developers of this app!</string>
+    <string name="showcase_ad_detail">Every time you consume an ad (e.g. by clicking on it) you make two young boys in Austria smile. If you don\'t like ads, you can remove them for a small fee and make these boys even happier.</string>
+
+    <string-array name="dialog_remove_ads_options">
+        <item>remove ads for one year</item>
+        <item>remove ads forever</item>
+        <item>deep love (+ remove ads forever)</item>
+        <item>remove ads temporarily</item>
+    </string-array>
+    
+    
+    
+    
+    <!-- CBR project strings -->
+    <string name="activity_browse_label">Browse screens</string>
+    <string name="activity_sd_browser_label">Select a comic from your SD card</string>
+    <string name="activity_settings_label">Settings</string>
+    <string name="activity_credits_label">Credits</string>
+    <string name="activity_subscribe_label">Subscribe</string>
+
+    <!-- Main -->
+    <string name="main_recent_items">OPEN RECENT</string>
+    <string name="main_recent_items_empty">Nothing read yet.\nTap the logo or press menu to start.</string>
+	<string name="main_intro">Press <b>Menu</b> or fling up to start</string>
+    <string name="item_navigate_title">Go to</string>
+    <string name="item_navigate_shortcut">G</string>
+    <string name="item_first_title">First</string>
+    <string name="item_previous_title">Previous</string>
+    <string name="item_next_title">Next</string>
+    <string name="item_previous_screen_title">Previous screen</string>
+    <string name="item_next_screen_title">Next screen</string>
+    <string name="item_last_title">Last</string>
+    <string name="item_zoom_title">Zoom</string>
+    <string name="item_zoom_in_title">Zoom in</string>
+    <string name="item_zoom_out_title">Zoom out</string>
+    <string name="item_fit_width_title">Fit width</string>
+    <string name="item_fit_height_title">Fit height</string>
+    <string name="item_actual_size">Actual size</string>
+    <string name="item_rotate_title">Rotate</string>
+    <string name="item_browse_title">Browse</string>
+    <string name="item_share_title">Share</string>
+    <string name="item_share_screen_title">Share this screen</string>
+    <string name="item_set_as_title">Set as</string>
+    <string name="item_share_app_title">Recommend ACV</string>
+    <string name="item_open_title">Open</string>
+    <string name="item_settings_title">Settings</string>
+    <string name="menu_close_title">Close</string>
+    
+    <string name="dialog_no_sd_title">Warning</string>
+    <string name="dialog_no_sd_text">No SD card was found.\n\nPlease insert or mount your SD card to open comics.</string>
+    <string name="dialog_page_progress_title">Loading&#8230;</string>
+    <string name="dialog_page_progress_text">Loading screen @number. Please wait&#8230;</string>
+    <string name="dialog_loading_progress_title">Loading&#8230;</string>
+    <string name="dialog_loading_progress_text">Loading comic archive from SD card.</string>
+    <string name="dialog_load_error_title">Oops!</string>
+    <string name="dialog_load_error_text">An error has occurred while loading. If you need help, please contact support@androidcomics.net.</string>
+    <string name="dialog_page_error_title">Error</string>
+	<string name="dialog_page_error_text">Unable to load image. This generally happens because of an out of memory error.</string>
+    <string name="dialog_flip_controls_title">Flip controls?</string>
+    <string name="dialog_flip_controls_text">Flip navigation controls to adapt them to current reading direction?</string>
+    <string name="dialog_unavailable_title">App unavailable</string>
+    <string name="dialog_unavailable_text">The requested app is either not yet available or unreacheable.\n\nWould you like to subscribe to our newsletter and be notified of future releases?</string>
+    
+    <string name="sd_browser_back">Back to parent folder</string>
+    <string name="sd_browser_empty">Empty folder</string>
+    <string name="sd_browser_open">OPEN</string>
+    <string name="sd_browser_recent">RECENT</string>
+    
+    <string name="screen_browser_go">Go</string>
+    
+    <!-- Preferences -->
+    
+	<string name="category_controls_title">Controls</string>
+    <string name="preference_map_actions_title">Custom controls</string>
+    <string name="preference_map_actions_summary">Set the action of each control event</string>   
+    <string name="preference_single_tap_title">Single tap</string>
+    <string name="preference_double_tap_title">Double tap</string>
+    <string name="preference_long_tap_title">Long press</string>
+    <string name="preference_trackball_up_title">Trackball up</string>
+    <string name="preference_trackball_down_title">Trackball down</string>
+    <string name="preference_trackball_left_title">Trackball left</string>
+    <string name="preference_trackball_right_title">Trackball right</string>
+    <string name="preference_trackball_center_title">Trackball center</string>
+    <string name="preference_fling_up_title">Fling up</string>
+    <string name="preference_fling_down_title">Fling down</string>
+    <string name="preference_fling_left_title">Fling left</string>
+    <string name="preference_fling_right_title">Fling right</string>
+    <string name="preference_corner_bottom_left_title">Bottom left corner tap</string>
+    <string name="preference_corner_bottom_right_title">Bottom right corner tap</string>
+    <string name="preference_corner_top_left_title">Top left corner tap</string>
+    <string name="preference_corner_top_right_title">Top right corner tap</string>
+    <string name="preference_back_title">Back</string>
+    <string name="preference_volume_up_title">Volume up</string>
+    <string name="preference_volume_down_title">Volume down</string>
+    <string name="preference_control_defaults_title">Restore defaults</string>
+    <string name="preference_control_defaults_summary">Reset action settings to default values</string>   
+    <string name="preference_direction_title">Reading direction</string>
+    <string name="preference_direction_summary">Choose between left-to-right or right-to-left</string>   
+    <string name="preference_auto_rotate_title">Auto-rotate</string>
+    <string name="preference_auto_rotate_summary">Rotate image when phone orientation changes</string>   
+    <string name="category_visual_title">Visual</string>
+    <string name="preference_transition_mode_title">Transition mode</string>
+    <string name="preference_transition_mode_summary">Choose the animation for screen transitions</string>
+    <string name="preference_scale_mode_title">Scale mode</string>
+    <string name="preference_scale_mode_summary">Choose how images will be scaled on the screen</string>   
+    <string name="preference_show_number_title">Show screen number</string>
+    <string name="preference_show_number_summary">Briefly shows the screen number in a corner</string>   
+    <string name="preference_invisible_corners_title">Invisible corners</string>
+    <string name="preference_invisible_corners_summary">Make corner buttons invisible</string>
+    <string name="preference_brigthness_title">Brightness</string>
+    <string name="preference_brigthness_summary">Adjust screen brightness</string>
+    <string name="preference_default_brightness">Default brightness</string>
+ 
+    <string name="category_memory_title">History</string>
+    <string name="preference_clear_history_title">Clear history</string>
+    <string name="preference_clear_history_summary">Clear all viewing history</string>
+ 
+    <string name="preference_low_memory_title">Low memory mode</string>
+    <string name="preference_low_memory_summary">Disable preloading and transitions</string>  
+        
+    <string name="category_about_title">About</string>
+    <string name="preference_acv_listing_title">Google Play listing</string>
+    <string name="preference_acv_listing_summary">Open ACV listing on Google Play</string>  
+    <string name="preference_version_title">Version</string>
+    <string name="preference_version_summary">ACV v</string>  
+    <string name="preference_contact_title">Contact</string>
+    <string name="preference_contact_summary">Email Robot Media</string>                       
+    <string name="preference_subscribe_summary">Receive news about ACV</string>
+    
+    <!-- Premium -->
+    <string name="category_premium_title">Premium</string>
+    <string name="preference_premium_title">Remove Ads</string>
+    <string name="preference_premium_summary">Buy ACV Premium to Remove Ads</string>
+    <string name="alert_premium_purchased_title">Premium Purchased</string>
+    <string name="alert_premium_purchased_message">Thank you for supporting ACV!</string>
+    
+    <!-- Advanced Preferences -->
+    <string name="category_advanced_title">Advanced</string>
+    <string name="preference_max_image_width_title">Max image width</string>
+    <string name="preference_max_image_width_dialog_title">Max image width</string>
+    <string name="preference_max_image_width_dialog_message">Set the maximum image width. Wider images will be downscaled.</string>
+    <string name="preference_max_image_height_title">Max image height</string>
+    <string name="preference_max_image_height_dialog_title">Max image height</string>
+    <string name="preference_max_image_height_dialog_message">Set the maximum image height. Taller images will be downscaled.</string>
+
+	<!-- Subscribe -->
+    <string name="txt_subscribe_intro">Subscribe to our email newsletter to be notified of future releases.</string>
+    <string name="btn_subscribe_submit">Submit</string>
+   	<string name="dialog_subscribe_success_title">Subscription in process</string>
+    <string name="dialog_subscribe_success_text">You will receive an activation email shortly.</string>
+    <string name="dialog_subscribe_error_title">Ooops!</string>
+    <string name="dialog_subscribe_error_text">The newsletter service is either unreachable or unavailable. Please try again later.</string>
+	<string name="dialog_email_error_title">Invalid email</string>
+    <string name="dialog_email_error_text">Please enter a valid email address.</string>
+
+	<!-- Share -->
+    <string name="share_app_title">Read comics in your Android!</string>
+    <string name="share_app_message">Check out ACV, the #1 comics and manga reader for Android http://goo.gl/FfAWL</string>
+    <string name="share_screen_title">Screen from @comic</string>
+    <string name="share_screen_message">Check out this screen from @comic sent from ACV http://goo.gl/FfAWL</string>
+
+	<!-- Changelog -->
+	<string name="dialog_changelog_title">Changelog</string>
+	<string name="changelog_english_only">For practical purposes the changelog is only available in English. Sorry for any inconvenience.</string>
+    
+</resources>

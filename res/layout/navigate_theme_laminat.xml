@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    style="@style/Theme.Laminat.scrollBg"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+       <EditText
+        android:id="@+id/page_edit"
+        android:layout_width="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/timepicker_input_pressed"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:inputType="number" />
+
+	<TextView
+		android:id="@+id/book_position_text"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:ellipsize="end"
+		android:paddingTop="4px"
+	/>
+
+	<SeekBar
+	    android:id="@+id/book_position_slider"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:indeterminate="false"
+	    android:max="90"
+	    android:paddingTop="4px"
+	    android:progress="50" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="1.0"
+		android:layout_below="@id/book_position_slider"
+		android:layout_alignParentBottom="true"
+	>
+		<Button
+			android:id="@android:id/button1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			
+			android:layout_weight="0.5"
+		/>
+		<Button
+			android:id="@android:id/button3"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.5"
+		/>
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,1247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Russian ReaderJ resources, by Geometer Plus -->
+<resources>
+
+    <node name="library" value="Библиотека">
+        <node name="unknownAuthor" value="Автор не указан" />
+        <node name="booksWithNoTags" value="Книги вне категорий" />
+        <node name="demo" value="фрагмент" />
+        <node name="byAuthor" value="Авторы">
+            <node name="summary" value="Книги, разложенные по авторам" />
+        </node>
+        <node name="byTitle" value="Названия">
+            <node name="summary" value="Книги, разложенные по названиям" />
+        </node>
+        <node name="bySeries" value="По сериям">
+            <node name="summary" value="Книги, разложенные по сериям" />
+        </node>
+        <node name="byTag" value="Категории">
+            <node name="summary" value="Книги, разложенные по категориям" />
+        </node>
+        <node name="recent" value="Недавние">
+            <node name="summary" value="Книги, которые недавно открывались" />
+        </node>
+        <node name="favorites" value="Избранное">
+            <node name="summary" value="Мои любимые книги" />
+        </node>
+        <node name="found" value="Найдено">
+            <node name="summary" value="Результаты поиска для: %s" />
+        </node>
+        <node name="fileTree" value="Файловая система">
+            <node name="summary" value="Файлы на моём устройстве" />
+        </node>
+        <node name="fileTreeRoot" value="Устройство">
+            <node name="summary" value="Просмотр всех файлов на устройстве" />
+        </node>
+        <node name="fileTreeCard" value="Карта памяти">
+            <node name="summary" value="Просмотр карты памяти" />
+        </node>
+        <node name="fileTreeLibrary" value="Библиотека FullReader+">
+            <node name="summary" value="Просмотр каталога с книгами" />
+        </node>
+        <node name="menu">
+            <node name="localSearch" value="Поиск" />
+            <node name="rescan" value="Пересканировать" />
+        </node>
+        <node name="openBook" value="Читать книгу" />
+        <node name="showBookInfo" value="Информация о книге" />
+        <node name="shareBook" value="Поделиться книгой" />
+        <node name="deleteBook" value="Удалить книгу" />
+        <node name="addToFavorites" value="Добавить в избранное" />
+        <node name="removeFromFavorites" value="Убрать из избранного" />
+        <node name="renameBook" value="Переименовать книгу"/>
+		<node name="copyBook" value="Копировать книгу"/>
+		<node name="pasteBook" value="Вставить книгу"/>
+		<node name="renameTitle" value="Укажите название для книги"/>
+		<node name="renameOk" value="Переименовать"/>
+		<node name="renameCancel" value="Отмена"/>
+		<node name="renameSuccess" value="Книга переименована"/>
+		<node name="renameError" value="Не удалось переименовать книгу"/>
+		<node name="fileInfo" value="Информация о файле"/>
+		<node name="fileName" value="Название:"/>
+		<node name="fileLocation" value="Расположение:"/>
+		<node name="fileSize" value="Размер:"/>
+		<node name="deleteFileTitle" value="Удаление файла"/>
+		<node name="copyFileSuccess" value="Файл успешно скопирован"/>
+		<node name="copyFileError" value="Ошибка при копировании файла"/>
+		<node name="fileCopying" value="Копирование файла"/>
+		<node name="selectMarker" value="Выделить"/>
+		<node name="saveMarker" value="Сохранить"/>
+    </node>
+    <node name="networkLibrary" value="Сетевая библиотека">
+        <node name="byAuthor" value="По авторам">
+            <node name="summary" value="Книги, разложенные по авторам" />
+        </node>
+        <node name="byTitle" value="По названиям">
+            <node name="summary" value="Книги, отсортированные по названиям" />
+        </node>
+        <node name="byDate" value="По дате">
+            <node name="summary" value="Книги, отсортированные по дате покупки" />
+        </node>
+        <node name="bySeries" value="По сериям">
+            <node name="summary" value="Книги, разложенные по сериям" />
+        </node>
+        <node name="search" value="Поиск">
+            <node name="summary" value="Искать книги на %s" />
+            <node name="summaryAllCatalogs" value="Искать книги во всех каталогах" />
+            <node name="summaryInProgress" value="Идёт поиск…" />
+        </node>
+        <node name="found" value="Найдено">
+            <node name="summary" value="Результаты поиска для: %s" />
+        </node>
+        <node name="openCatalog" value="Открыть каталог" />
+        <node name="networkSearch" value="Искать" />
+        <node name="showResults" value="Показать результаты" />
+        <node name="showBooks" value="Показать книги" />
+        <node name="download" value="Скачать" />
+        <node name="read" value="Читать локальную копию" />
+        <node name="delete" value="Удалить локальную копию" />
+        <node name="readDemo" value="Читать фрагмент" />
+        <node name="deleteDemo" value="Удалить фрагмент" />
+        <node name="downloadDemo" value="Скачать фрагмент" />
+        <node name="buy" value="Купить (%s)" />
+        <node name="addToBasket" value="Добавить в корзину" />
+        <node name="removeFromBasket" value="Удалить из корзины" />
+        <node name="openBasket" value="Корзина" />
+        <node name="clearBasket" value="Очистить корзину" />
+        <node name="buyAllBooks" value="Купить все книги" />
+        <node name="openInBrowser" value="Показать в браузере" />
+        <node name="stopLoading" value="Остановить загрузку" />
+        <node name="stopSearching" value="Остановить поиск" />
+        <node name="signIn" value="Вход" />
+        <node name="signOut" value="Выход (%s)" />
+        <node name="topup" value="Пополнение счёта (баланс: %s)" />
+        <node name="topupTitle" value="Оплата" />
+        <node name="topupViaBrowser" value="В окне браузера" />
+        <node name="authorizationMenuTitle" value="Выберите действие" />
+        <node name="topupSummary" value="Текущий счёт: %s" />
+        <node name="basket" value="Корзина" />
+        <node name="basketSummaryEmpty" value="Пустая корзина" />
+        <node name="basketSummaryCountOnly" value="%0 книг">
+            <node condition="modrange 11 19 100" value="%0 книг" />
+            <node condition="mod 1 10" value="%0 книгa" />
+            <node condition="modrange 2 4 10" value="%0 книги" />
+        </node>
+        <node name="basketSummary" value="%0 книг, на сумму %1">
+            <node condition="modrange 11 19 100" value="%0 книг, на сумму %1" />
+            <node condition="mod 1 10" value="%0 книгa, на сумму %1" />
+            <node condition="modrange 2 4 10" value="%0 книги, на сумму %1" />
+        </node>
+        <node name="alreadyDownloading" value="Книга загружается" />
+        <node name="alreadyDownloadingDemo" value="Фрагмент загружается" />
+        <node name="stoppingCatalogLoading" value="Остановка загрузки" />
+        <node name="stoppingNetworkSearch" value="Завершение поиска" />
+        <node name="editCustomCatalog" value="Изменить каталог" />
+        <node name="removeCustomCatalog" value="Удалить каталог" />
+        <node name="addCustomCatalog" value="Добавить каталог" />
+        <node name="addCustomCatalogSummary" value="Добавить OPDS каталог вручную" />
+        <node name="confirmQuestions">
+            <node name="read" value="Вы хотите открыть локальную копию?" />
+            <node name="download" value="Вы хотите скачать эту книгу?" />
+            <node name="readDemo" value="Вы хотите открыть фрагмент?" />
+            <node name="downloadDemo" value="Вы хотите скачать фрагмент?" />
+            <node name="buy" value="Вы хотите купить эту книгу? (%s)" />
+            <node name="openInBrowser" value="Вы хотите открыть этот каталог в браузере?" />
+        </node>
+        <node name="downloadingCatalogs" value="Идёт загрузка каталогов" />
+        <!-- used as notification title -->
+        <node name="searchingNetwork" value="Поиск книг в сети" />
+        <!-- used as notification title -->
+        <node name="addCatalog">
+            <node name="title" value="Добавление каталога" />
+            <node name="editUrl" value="Ввести адрес вручную" />
+        </node>
+        <node name="menu">
+            <node name="networkSearch" value="Искать в сети" />
+            <node name="reload" value="Обновить" />
+            <node name="signIn" value="Войти" />
+            <node name="signUp" value="Регистрация" />
+            <node name="signOut" value="Выйти (%s)" />
+            <node name="topup" value="Пополнить счёт" />
+            <node name="addCustomCatalog" value="Добавить каталог" />
+            <node name="refreshCatalogsList" value="Обновить каталоги" />
+            <node name="languages" value="Фильтр по языку" />
+            <node name="clearBasket" value="Очистить корзину" />
+            <node name="buyAllBooks" value="Купить все книги" />
+        </node>
+    </node>
+    <node name="buyBook">
+        <node name="title" value="Покупка книги" />
+        <node name="titleSeveralBooks" value="Покупка книг" />
+        <node name="confirm" value="Вы уверены, что хотите приобрести книгу
+«%s»?" />
+        <node name="confirmSeveralBooks" value="Вы уверены, что хотите приобрести %s книги?" />
+        <node name="alreadyBought" value="Книга уже куплена" />
+        <node name="notAuthorized" value="Требуется авторизация" />
+        <node name="noAccountInformation" value="Не удалось проверить состояние счёта" />
+        <node name="unsufficientFunds" value="Для покупки требуется %0, а на счёте только %1" />
+        <node name="zeroFunds" value="Для покупки требуется %0" />
+    </node>
+    <node name="bookInfo">
+        <node name="bookInfo" value="Информация о книге" />
+        <node name="fileInfo" value="Информация о файле" />
+        <node name="description" value="Описание" />
+        <node name="noDescription" value="Описание отсутствует." />
+        <node name="annotation" value="Аннотация" />
+        <node name="title" value="Название:" />
+        <node name="authors" value="Авторы:">
+            <node condition="value 1" value="Автор:" />
+        </node>
+        <node name="series" value="Серия:" />
+        <node name="indexInSeries" value="Номер в серии:" />
+        <node name="tags" value="Категории:">
+            <node condition="value 1" value="Категория:" />
+        </node>
+        <node name="language" value="Язык:" />
+        <node name="name" value="Название:" />
+        <node name="type" value="Тип:" />
+        <node name="size" value="Размер:" />
+        <node name="time" value="Последнее изменение:" />
+        <node name="sizeInBytes" value="%s байт">
+            <node condition="modrange 11 19 100" value="%0 байт" />
+            <node condition="modrange 2 4 10" value="%0 байта" />
+        </node>
+        <node name="sizeInKiloBytes" value="%s кБ" />
+        <node name="catalog" value="Каталог:" />
+        <node name="extraLinks" value="Ссылки" />
+        <node name="menu">
+            <node name="edit" value="Редактировать" />
+        </node>
+    </node>
+    <node name="bookDownloader">
+        <node name="tickerSuccess" value="Книга скачана" />
+        <node name="tickerError" value="Книгу скачать не удалось" />
+        <node name="contentSuccess" value="Скачивание завершено" />
+        <node name="contentError" value="Не удалось скачать" />
+        <node name="downloadingStarted" value="Скачивание книги запущено" />
+        <node name="alreadyDownloading" value="Книга уже скачивается" />
+        <node name="cannotCreateDirectory" value="Невозможно создать каталог %s" />
+        <node name="cannotCreateFile" value="Невозможно создать файл %s" />
+    </node>
+    <node name="tocView">
+        <node name="expandTree" value="Развернуть ветвь дерева" />
+        <node name="collapseTree" value="Свернуть ветвь дерева" />
+        <node name="readText" value="Читать главу" />
+    </node>
+    <node name="bookmarksView">
+        <node name="thisBook" value="Закладки" />
+        <node name="allBooks" value="Все закладки" />
+        <node name="found" value="Найдено" />
+        <node name="new" value="Добавить закладку" />
+        <node name="open" value="Открыть" />
+        <node name="edit" value="Поправить закладку" />
+        <node name="delete" value="Стереть закладку" />
+        <node name="menu">
+            <node name="search" value="Поиск" />
+        </node>
+    </node>
+    <node name="quotesView">
+        <node name="thisBook" value="Цитаты" />
+        <node name="allBooks" value="Все цитаты" />
+        <node name="found" value="Найдено" />
+        <node name="new" value="Добавить цитату" />
+        <node name="open" value="Открыть" />
+        <node name="edit" value="Поправить цитату" />
+        <node name="delete" value="Стереть цитату" />
+        <node name="share" value="Поделиться" />
+        <node name="fbshare" value="Поделиться через FB" />
+        <node name="menu">
+            <node name="search" value="Поиск" />
+        </node>
+    </node>
+    <node name="cancelMenu">
+        <node name="library" value="Открыть библиотеку" />
+        <node name="networkLibrary" value="Открыть сетевую библиотеку" />
+        <node name="previousBook" value="Открыть предыдущую книгу" />
+        <node name="returnTo" value="Вернуться к …" />
+        <node name="back" value="Назад" />
+        <node name="forward" value="Вперед" />
+        <node name="close" value="Закрыть Reader" />
+    </node>
+    <node name="selection" value="Пометка">
+        <node name="copyToClipboard" value="Скопировать в буфер" />
+        <node name="openInDictionary" value="Посмотреть в словаре" />
+        <node name="quoteFrom" value="%s" />
+        <node name="textInBuffer" value="Текст в буфере обмена:
+%s" />
+        <node name="bookmarkCreated" value="Закладка создана" />
+        <node name="quoteCreated" value="
+%s" />
+        <node name="clearSelection" value="Убрать пометку" />
+    </node>
+    <node name="sharing">
+        <node name="sharedFrom" value="Отправлено из &lt;a href=&quot;http://www.Reader.ru/&quot;>Reader&lt;/a>" />
+    </node>
+    <node name="menu">
+        <node name="preferences" value="Настройки" />
+        <node name="bookInfo" value="О книге" />
+        <node name="library" value="Библиотека" />
+        <node name="toc" value="Оглавление" />
+        <node name="day" value="День" />
+        <node name="night" value="Ночь" />
+        <node name="networkLibrary" value="Сетевая библиотека" />
+        <node name="navigate" value="Переход">
+            <node name="toc" value="Оглавление" />
+            <node name="gotoHome" value="В начало книги" />
+            <node name="gotoPageNumber" value="На страницу…" />
+            <node name="gotoSectionStart" value="В начало раздела" />
+            <node name="gotoSectionEnd" value="В конец раздела" />
+            <node name="nextTOCSection" value="К следующей главе" />
+            <node name="previousTOCSection" value="К предыдущей главе" />
+            <node name="undo" value="Назад" />
+            <node name="redo" value="Вперед" />
+        </node>
+        <node name="shareBook" value="Поделиться книгой" />
+        <node name="search" value="Поиск" />
+        <node name="rotate" value="Повернуть" />
+        <node name="screenOrientation" value="Ориентация экрана" />
+        <node name="screenOrientationSystem" value="системная" />
+        <node name="screenOrientationSensor" value="зависит от ориентации устройства" />
+        <node name="screenOrientationPortrait" value="вертикальная" />
+        <node name="screenOrientationLandscape" value="горизонтальная" />
+        <node name="screenOrientationReversePortrait" value="перевёрнутая вертикальная" />
+        <node name="screenOrientationReverseLandscape" value="перевёрнутая горизонтальная" />
+        <node name="increaseFont" value="Увеличить шрифт" />
+        <node name="decreaseFont" value="Уменьшить шрифт" />
+        <node name="toggleFullscreen" value="На весь экран" />
+        <node name="bookmarks" value="Закладки" />
+        <node name="menuColorMarks" value="Пометки" />
+        <!-- <node name="quotes" value="Цитаты" /> -->
+    </node>
+    <node name="BookInfo">
+        <node name="fileName" value="Файл" />
+        <node name="title" value="Название" />
+        <node name="language" value="Язык" />
+        <node name="encoding" value="Кодировка" />
+        <node name="authors" value="Авторы" />
+        <node name="tags" value="Категории" />
+        <node name="series" value="Серия" />
+    </node>
+    <node name="Preferences">
+        <node name="tapzones" value="Тап-зоны">
+            <node name="summary" value="Настройки тап-зон" />
+        </node>
+        <node name="synchronization" value="Синхронизация">
+            <node name="summary" value="Настройки синхронизации" />
+        </node>
+        <node name="general" value="Общие">
+            <node name="summary" value="Общие настройки" />
+            <node name="autoscrolling" value="Автоперелистывание">
+                <node name="summaryOn" value="Включено" />
+                <node name="summaryOff" value="Выключено" />
+            </node>
+            <node name="reminder" value="Напоминание">
+                <node name="summaryOn" value="Включено" />
+                <node name="summaryOff" value="Выключено" />
+            </node>
+            <node name="screenOrientation" value="Ориентация экрана">
+                <node name="system" value="системная" />
+                <node name="sensor" value="зависит от ориентации устройства" />
+                <node name="portrait" value="вертикальная" />
+                <node name="landscape" value="горизонтальная" />
+                <node name="reversePortrait" value="перевёрнутая вертикальная" />
+                <node name="reverseLandscape" value="перевёрнутая горизонтальная" />
+            </node>
+        </node>
+        <node name="other" value="Другие">
+            <node name="summary" value="Другие настройки" />
+            <node name="daynightenable" value="Авторежим День-Ночь">
+                <node name="summaryOn" value="Включен" />
+                <node name="summaryOff" value="Выключен" />
+            </node>
+            <node name="enableDoubleTapDetection" value="Обработка двойного нажатия">
+                <node name="summaryOn" value="По двойному нажатию открывать диалог перемещения/меню" />
+                <node name="summaryOff" value="Игнорировать двойные нажатия" />
+            </node>
+            <node name="synchronizationDropbox" value="Через Dropbox">
+				 <node name="summaryOn" value="Да" />
+	             <node name="summaryOff" value="Нет" />
+             </node>
+        </node>
+        <node name="tapzones">
+	    	 <node name="tapzoneDoubleTapDetection" value="Только по двойному нажатию">
+	            <node name="summaryOn" value="Да" />
+	            <node name="summaryOff" value="Нет" />
+        	</node>
+	    </node>
+        <node name="directories" value="Каталоги">
+            <node name="summary" value="Где искать файлы" />
+            <node name="books" value="Каталог с книгами" />
+            <node name="fonts" value="Каталог со шрифтами" />
+            <node name="wallpapers" value="Каталог с обоями" />
+        </node>
+        <node name="appearance" value="Внешний вид">
+            <node name="summary" value="Экран, строка состояния, подсветка кнопок" />
+            <node name="language" value="Язык интерфейса" />
+            <node name="autoOrientation" value="Автоматический поворот">
+                <node name="summaryOn" value="Изображение поворачивается при повороте устройства" />
+                <node name="summaryOff" value="Изображение не поворачивается при повороте устройства" />
+            </node>
+            <node name="showStatusBar" value="Показывать строку состояния">
+                <node name="summaryOn" value="Строка состояния видна во время чтения" />
+                <node name="summaryOff" value="Строка состояния не видна во время чтения" />
+            </node>
+            <node name="showActionBar" value="Показывать строку меню">
+                <node name="summaryOn" value="Строка меню видна во время чтения" />
+                <node name="summaryOff" value="Строка меню не видна во время чтения" />
+            </node>
+            <node name="showStatusBarWhenMenuIsActive" value="Показывать строку состояния при активации меню">
+                <node name="summaryOn" value="Показывать строку состояния, когда меню появляется на экране" />
+                <node name="summaryOff" value="Не показывать строку состояния, когда меню появляется на экране" />
+            </node>
+            <node name="disableButtonLights" value="Выключать подсветку кнопок во время чтения">
+                <node name="summaryOn" value="Выключать подсветку (работает не на всех устройствах)" />
+                <node name="summaryOff" value="Не пытаться выключать подсветку" />
+            </node>
+            <node name="allowScreenBrightnessAdjustment" value="Регулировка яркости экрана">
+                <node name="summaryOn" value="Движением пальца вверх/вниз по левому краю экрана" />
+                <node name="summaryOff" value="Выключена" />
+            </node>
+            <node name="dontTurnScreenOff" value="Не выключать экран во время чтения">
+                <node name="0" value="Никогда не выключать" />
+                <node name="25" value="Пока батарея заряжена хотя бы на четверть" />
+                <node name="50" value="Пока батарея заряжена хотя бы на половину" />
+                <node name="100" value="Всегда выключать" />
+            </node>
+            <node name="dontTurnScreenOffDuringCharging" value="Не выключать экран, если батарея заряжается">
+                <node name="summaryOn" value="Никогда не выключать экран, если чтение происходит в режиме зарядки" />
+                <node name="summaryOff" value="Выключать экран даже в режиме зарядки" />
+            </node>
+        </node>
+        <node name="text" value="Текст">
+            <node name="summary" value="Шрифты, переносы и т.д." />
+            <node name="fontProperties" value="Свойства шрифтов">
+                <node name="summary" value="Настройки сглаживания шрифтов" />
+				<node name="antiAlias" value="Сглаживание">
+					<node name="summaryOn" value="Сглаживание включено"/>
+					<node name="summaryOff" value="Сглаживание отключено"/>
+				</node>
+				<node name="deviceKerning" value="Устройство кернинг">
+					<node name="summaryOn" value="Устройство кернинг включен"/>
+					<node name="summaryOff" value="Устройство кернинг выключен"/>
+				</node>
+				<node name="dithering" value="Сглаживание">
+					<node name="summaryOn" value="Цвет сглаживание включено"/>
+					<node name="summaryOff" value="Цвет сглаживание отключено"/>
+				</node>
+				<node name="hinting" value="Хинтинг">
+					<node name="summaryOn" value="Шрифт хинтинг включена"/>
+					<node name="summaryOff" value="Шрифт хинтинг отключена"/>
+				</node>
+				<node name="subpixel" value="Субпиксельное сглаживание">
+					<node name="summaryOn" value="Субпиксельное сглаживание включено"/>
+					<node name="summaryOff" value="Субпиксельное сглаживание отключено"/>
+				</node>
+            </node>
+            <node name="font" value="Шрифт">
+                <node name="unchanged" value="&lt;не менять>" />
+            </node>
+            <node name="fontSize" value="Размер шрифта" />
+            <node name="fontSizeDifference" value="Размер" />
+            <node name="fontStyle" value="Начертание">
+                <node name="regular" value="нормальное" />
+                <node name="bold" value="жирное" />
+                <node name="italic" value="курсив" />
+                <node name="boldItalic" value="жирный курсив" />
+            </node>
+            <node name="bold" value="Жирный шрифт">
+                <node name="summaryOn" value="использовать жирное начертание" />
+                <node name="summaryOff" value="использовать нормальное начертание" />
+                <node name="unchanged" value="не менять" />
+            </node>
+            <node name="italic" value="Курсив">
+                <node name="summaryOn" value="использовать курсивное начертание" />
+                <node name="summaryOff" value="использовать нормальное начертание" />
+                <node name="unchanged" value="не менять" />
+            </node>
+            <node name="underlined" value="Подчёркнутый">
+                <node name="summaryOn" value="включить" />
+                <node name="summaryOff" value="выключить" />
+                <node name="unchanged" value="не менять" />
+            </node>
+            <node name="strikedThrough" value="Зачёркнутый">
+                <node name="summaryOn" value="включить" />
+                <node name="summaryOff" value="выключить" />
+                <node name="unchanged" value="не менять" />
+            </node>
+            <node name="lineSpacing" value="Интервал">
+                <node name="unchanged" value="&lt;не менять>" />
+            </node>
+            <node name="alignment" value="Выравнивание">
+                <node name="left" value="левое" />
+                <node name="right" value="правое" />
+                <node name="center" value="по центру" />
+                <node name="justify" value="по краям" />
+                <node name="unchanged" value="&lt;не менять>" />
+            </node>
+            <node name="autoHyphenations" value="Переносы">
+                <node name="summaryOn" value="Автоматически расставлять переносы" />
+                <node name="summaryOff" value="Не расставлять переносы" />
+            </node>
+            <node name="allowHyphenations" value="Переносы">
+                <node name="summaryOn" value="разрешить переносы" />
+                <node name="summaryOff" value="запретить переносы" />
+                <node name="unchanged" value="&lt;не менять>" />
+            </node>
+            <node name="firstLineIndent" value="Красная строка" />
+            <node name="spaceBefore" value="Пропуск перед" />
+            <node name="spaceAfter" value="Пропуск после" />
+            <node name="leftIndent" value="Отступ слева" />
+            <node name="rightIndent" value="Отступ справа" />
+            <node name="more" value="Другие стили">
+                <node name="summary" value="Отдельные настройки для заголовков, эпиграфов и т.д." />
+                <node name="Regular Paragraph" value="Обычный текст">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Title" value="Заголовок">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Section Title" value="Название главы">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Poem Title" value="Название стихотворения">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Subtitle" value="Подзаголовок">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Annotation" value="Аннотация">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Epigraph" value="Эпиграф">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Stanza" value="Строфа">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Verse" value="Стихи">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Preformatted text" value="Текст внутри &lt;pre>">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Image" value="Рисунок">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Cite" value="Цитата">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Author" value="Имя автора">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Date" value="Дата">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Internal Hyperlink" value="Ссылка">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Footnote" value="Сноска">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Emphasis" value="Выделение (emphasis)">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Strong" value="Выделение (strong)">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Subscript" value="Нижний индекс">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Superscript" value="Верхний индекс">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Code" value="Текст программы">
+                    <node name="summary" value="" />
+                </node>
+                <node name="StrikeThrough" value="Зачёркнутый текст">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Italic" value="Курсив">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Bold" value="Жирный текст">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Definition" value="Определение">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Definition Description" value="Текст определения">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Header 1" value="Текст внутри &lt;h1>">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Header 2" value="Текст внутри &lt;h2>">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Header 3" value="Текст внутри &lt;h3>">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Header 4" value="Текст внутри &lt;h4>">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Header 5" value="Текст внутри &lt;h5>">
+                    <node name="summary" value="" />
+                </node>
+                <node name="Header 6" value="Текст внутри &lt;h6>">
+                    <node name="summary" value="" />
+                </node>
+                <node name="External Hyperlink" value="Внешняя ссылка">
+                    <node name="summary" value="" />
+                </node>
+            </node>
+        </node>
+        <node name="css" value="CSS">
+            <node name="summary" value="Использовать ли форматирование CSS" />
+            <node name="fontSize" value="Размер шрифта">
+                <node name="summaryOn" value="Использовать размер шрифта, заданный в CSS" />
+                <node name="summaryOff" value="Игнорировать размер шрифта, заданный в CSS" />
+            </node>
+            <node name="textAlignment" value="Выравнивание текста">
+                <node name="summaryOn" value="Выравнивать текст, как указано в CSS" />
+                <node name="summaryOff" value="Игнорировать выравнивание текста, заданное в CSS" />
+            </node>
+        </node>
+        <node name="colors" value="Цвета и обои">
+            <node name="summary" value="Настройки цвета" />
+            <node name="background" value="Фон">
+                <node name="solidColor" value="Сплошной цвет" />
+                <node name="leather" value="Кожа" />
+                <node name="sepia" value="Сепия" />
+                <node name="wood" value="Дерево" />
+                <node name="note" value="Блокнот" />
+                <node name="cell" value="Клеточка" />
+                <node name="wall1" value="Полоска" />
+                <node name="wall2" value="Обои" />
+                <node name="papirus" value="Папирус" />
+                <node name="battered_paper" value="Помятая бумага" />
+                <node name="sepia" value="Сепия" />
+                <node name="old_paper" value="Старая бумага" />
+                <node name="cloth" value="Ткань" />
+            </node>
+            <node name="backgroundColor" value="Цвет фона" />
+            <node name="selectionBackground" value="Фон пометки" />
+            <node name="selectionForeground" value="Текст пометки" />
+            <node name="text" value="Обычный текст" />
+            <node name="hyperlink" value="Гиперссылка" />
+            <node name="hyperlinkVisited" value="Посещенная ссылка" />
+            <node name="highlighting" value="Фон результатов поиска" />
+            <node name="footer" value="Прогресс чтения" />
+        </node>
+        <node name="margins" value="Отступы">
+            <node name="summary" value="Поля вокруг текста" />
+            <node name="left" value="Отступ слева" />
+            <node name="right" value="Отступ справа" />
+            <node name="top" value="Отступ сверху" />
+            <node name="bottom" value="Отступ снизу" />
+        </node>
+        <node name="scrollBar" value="Полоса прокрутки">
+            <node name="summary" value="Индикатор количества прочитанного" />
+            <node name="scrollbarType" value="Тип полосы прокрутки">
+                <node name="hide" value="Скрыть" />
+                <node name="show" value="Вертикальный ползунок" />
+                <node name="showAsProgress" value="Вертикальный прогресс-бар" />
+                <node name="showAsFooter" value="Подвал" />
+            </node>
+            <node name="footerHeight" value="Высота подвала" />
+            <node name="footerColor" value="Цвет подвала" />
+            <node name="tocMarks" value="Показывать метки по главам">
+                <node name="summaryOn" value="Рисовать пометку на подвале в начале главы" />
+                <node name="summaryOff" value="Подвал без пометок" />
+            </node>
+            <node name="showProgress" value="Показывать число страниц">
+                <node name="summaryOn" value="Показывать число страниц в подвале" />
+                <node name="summaryOff" value="Не показывать число страниц в подвале" />
+            </node>
+            <node name="showBattery" value="Показать заряд батареи">
+                <node name="summaryOn" value="Показывать заряд батареи в подвале" />
+                <node name="summaryOff" value="Не показывать заряд батареи в подвале" />
+            </node>
+            <node name="showClock" value="Показывать часы">
+                <node name="summaryOn" value="Показывать часы в подвале" />
+                <node name="summaryOff" value="Не показывать часы в подвале" />
+            </node>
+            <node name="font" value="Шрифт" />
+        </node>
+        <node name="scrolling" value="Перелистывание страниц">
+            <node name="summary" value="Как листать страницы" />
+            <node name="fingerScrolling" value="Листание пальцем по экрану">
+                <node name="byTap" value="Листать нажатием на экран" />
+                <node name="byFlick" value="Листать протягиванием страницы" />
+                <node name="byTapAndFlick" value="Листать нажатием на экран либо протягиванием страницы" />
+            </node>
+            <node name="volumeKeys" value="Использовать кнопки регулировки звука">
+                <node name="summaryOn" value="Кнопки увеличения/уменьшения звука перелистывают страницы" />
+                <node name="summaryOff" value="Кнопки увеличения/уменьшения звука работают как обычно" />
+            </node>
+            <node name="invertVolumeKeys" value="Перелистывать кнопками в обратную сторону">
+                <node name="summaryOn" value="Верхняя кнопка листает страницу вперед" />
+                <node name="summaryOff" value="Нижняя кнопка листает страницу вперед" />
+            </node>
+            <node name="animation" value="Анимация">
+                <node name="none" value="Выключить анимацию" />
+                <node name="curl" value="Трехмерная анимация" />
+                <node name="slide" value="Сдвиг с перекрытием" />
+                <node name="shift" value="Сдвиг" />
+            </node>
+            <node name="animationSpeed" value="Скорость анимации">
+                <node name="fast" value="быстро" />
+                <node name="slow" value="медленно" />
+            </node>
+            <node name="horizontal" value="Горизонтальное перелистывание">
+                <node name="summaryOn" value="При листании страница движется по горизонтали" />
+                <node name="summaryOff" value="При листании страница движется по вертикали" />
+            </node>
+        </node>
+        
+        <node name="tapZones" toBeTranslated="true" value="Tap zones">
+            <node name="summary" toBeTranslated="true" value="Actions on finger tap" />
+            <node name="tapZonesScheme" toBeTranslated="true" value="Tap zones scheme">
+                <node name="left_to_right" toBeTranslated="true" value="Left to right page scrolling" />
+                <node name="right_to_left" toBeTranslated="true" value="Right to left page scrolling" />
+                <node name="up" toBeTranslated="true" value="Down to up page scrolling" />
+                <node name="down" toBeTranslated="true" value="Up to down page scrolling" />
+                <node name="custom" toBeTranslated="true" value="Custom…" />
+            </node>
+        </node>
+        <node name="dictionary" value="Словарь">
+            <node name="summary" value="Настройки словаря" />
+            <node name="dictionary" value="Словарь" />
+            <node name="translator" value="Переводчик" />
+            <node name="tappingAction" value="Действие при долгом нажатии на экран">
+                <node name="doNothing" value="Ничего не делать" />
+                <node name="selectSingleWord" value="Выделять одно слово" />
+                <node name="startSelecting" value="Начинать процесс пометки" />
+                <node name="openDictionary" value="Выделять одно слово, а при отпускании – запускать словарь" />
+            </node>
+            <node name="navigateOverAllWords" value="Перемещаться по всем словам">
+                <node name="summaryOn" value="При перемещении с помощью кнопок помечать все слова" />
+                <node name="summaryOff" value="При перемещении с помощью кнопок помечать только гиперссылки" />
+            </node>
+        </node>
+        <node name="images" value="Картинки">
+            <node name="summary" value="Настройки отображения картинок" />
+            <node name="backgroundColor" value="Цвет фона при полноэкранном просмотре" />
+            <node name="tappingAction" value="Действие при долгом нажатии на экран">
+                <node name="doNothing" value="Не делать ничего" />
+                <node name="selectImage" value="Выделять картинку" />
+                <node name="openImageView" value="Запускать полноэкранный просмотр" />
+            </node>
+            <node name="fitImagesToScreen" value="Показывать на весь экран">
+                <node name="none" value="Никогда" />
+                <node name="covers" value="Только обложки" />
+                <node name="all" value="Все картинки" />
+            </node>
+        </node>
+        <node name="cancelMenu" value="Меню выхода из программы">
+            <node name="summary" value="Список действий при нажатии на кнопку &apos;Назад&apos;" />
+            <node name="library" value="Библиотека">
+                <node name="summaryOn" toBeTranslated="true" value="Show &apos;open library&apos; item" />
+                <node name="summaryOff" toBeTranslated="true" value="Don&apos;t show &apos;open library&apos; item" />
+            </node>
+            <node name="networkLibrary" value="Сетевая библиотека">
+                <node name="summaryOn" toBeTranslated="true" value="Show &apos;open network library&apos; item" />
+                <node name="summaryOff" toBeTranslated="true" value="Don&apos;t show &apos;open network library&apos; item" />
+            </node>
+            <node name="previousBook" value="Предыдущая книга">
+                <node name="summaryOn" value="Показать пункт меню для возврата к предыдущей книге" />
+                <node name="summaryOff" value="Не нужна возможность возврата к предыдущей книге" />
+            </node>
+            <node name="positions" value="Возврат по ссылкам">
+                <node name="summaryOn" value="Показывать пункты меню для последних 3 позиций в книге" />
+                <node name="summaryOff" value="Не нужна возможность возврата по ссылкам" />
+            </node>
+            <node name="backKeyAction" value="Действие по кнопке &apos;Назад&apos;">
+                <node name="exit" value="Закрыть Reader" />
+                <node name="goBack" value="Вернуться по ссылке" />
+                <node name="cancelMenu" value="Показать список действий" />
+            </node>
+            <node name="backKeyLongPressAction" value="Действие по долгому нажатию">
+                <node name="exit" value="Закрыть Reader" />
+                <node name="goBack" value="Вернуться по ссылке" />
+                <node name="cancelMenu" value="Показать список действий" />
+                <node name="none" value="Ничего не делать" />
+            </node>
+        </node>
+        <node name="tips" value="Советы">
+            <node name="summary" value="Ежедневные советы" />
+            <node name="showTips" value="Показывать советы">
+                <node name="summaryOn" value="Показывать" />
+                <node name="summaryOff" value="Не показывать" />
+            </node>
+        </node>
+        <node name="about" value="О программе Reader">
+            <node name="summary" value="Версия, контакты" />
+            <node name="version" value="Версия" />
+            <node name="site" value="Наш веб-сайт">
+                <node name="url" value="http://www.Reader.ru/" />
+            </node>
+            <node name="email" value="Отправьте нам письмо">
+                <node name="url" value="mailto:contact@test.com" />
+            </node>
+            <node name="twitter" value="Читайте нас в твиттере">
+                <node name="url" value="http://twitter.com/Reader_ru" />
+            </node>
+        </node>
+    </node>
+    <node name="dialog">
+        <node name="button">
+            <node name="install" value="Установить" />
+            <node name="update" value="Обновить" />
+            <node name="skip" value="Не сейчас" />
+            <node name="buy" value="Купить" />
+            <node name="buyAndDownload" value="Купить и скачать" />
+            <node name="continue" value="Продолжить" />
+            <node name="editUrl" value="Изменить URL" />
+            <node name="tryAgain" value="Повторить" />
+            <node name="openBook" value="Читать" />
+            <node name="editInfo" value="Изменить" />
+            <node name="reloadInfo" value="Обновить" />
+            <node name="shareBook" value="Поделиться" />
+            <node name="topup" value="Пополнить счёт" />
+            <node name="pay" value="Заплатить" />
+            <node name="refresh" value="Обновить" />
+            <node name="authorize" value="Авторизоваться" />
+            <node name="resetPosition" value="Назад" />
+            <node name="sendReport" value="Отправить сообщение" />
+        </node>
+        <node name="plugin">
+            <node name="installTitle" value="Установка дополнения" />
+            <node name="updateTitle" value="Новая версия" />
+            <node name="dontAskAgain" value="Больше не спрашивать" />
+        </node>
+        <node name="installDictionary">
+            <node name="title" value="Установка словаря" />
+            <node name="message" value="Установить %s?" />
+        </node>
+        <node name="deleteBookBox">
+            <node name="message" value="Файл книги будет удален необратимо. Продолжать?" />
+        </node>
+        <node name="redownloadFileBox">
+            <node name="message" value="Файл уже есть на устройстве. Загрузить заново?" />
+        </node>
+        <node name="waitMessage">
+            <node name="downloadingFile" value="Загужается книга %s" />
+            <node name="search" value="Идет поиск. Подождите, пожалуйста…" />
+            <node name="loadInfo" value="Загружается информация. Подождите, пожалуйста…" />
+            <node name="loadingBook" value="Открывается книга. Подождите, пожалуйста…" />
+            <node name="loadingBookList" value="Открывается библиотека. Подождите, пожалуйста…" />
+            <node name="creatingBooksDatabase" value="Создается база книг. Подождите, пожалуйста…" />
+            <node name="updatingBooksDatabase" value="Обновляется база книг. Подождите, пожалуйста…" />
+            <node name="loadingNetworkLibrary" value="Открывается библиотека. Подождите, пожалуйста…" />
+            <node name="authentication" value="Идет авторизация. Подождите, пожалуйста…" />
+            <node name="signOut" value="Выход из системы. Подождите, пожалуйста…" />
+            <node name="purchaseBook" value="Идет покупка книги. Подождите, пожалуйста…" />
+            <node name="loadingCatalogInfo" value="Загрузка информации из каталога. Подождите, пожалуйста…" />
+            <node name="loadingNetworkBookInfo" value="Загрузка информации о книге. Подождите, пожалуйста…" />
+            <node name="updatingCatalogsList" value="Обновляется список каталогов. Подождите, пожалуйста…" />
+            <node name="updatingAccountInformation" value="Загружается информация о состоянии счета. Подождите, пожалуйста…" />
+        </node>
+        <node name="networkError">
+            <node name="internalError" value="Внутренняя ошибка сервера" />
+            <node name="purchaseNotEnoughMoney" value="Недостаточно средств на счёте" />
+            <node name="purchaseMissingBook" value="Книга отсутствует в продаже" />
+            <node name="purchaseAlreadyPurchased" value="Книга уже была куплена" />
+            <node name="bookNotPurchased" value="Книга не была куплена" />
+            <node name="downloadLimitExceeded" value="Исчерпан лимит загрузок" />
+            <node name="noUserEmail" value="Нет пользователя с таким адресом" />
+            <node name="unsupportedOperation" value="Неподдерживаемая операция" />
+            <node name="notAnOPDS" value="Это не OPDS каталог" />
+            <node name="noRequiredInformation" value="Информация нет в каталоге" />
+            <node name="cacheDirectoryError" value="Не удается создать каталог для кэша" />
+        </node>
+        <node name="AuthenticationDialog">
+            <node name="title" value="Авторизация" />
+            <node name="unencryptedWarning" value="Пароль пересылается незашифрованным" />
+            <node name="login" value="Имя пользователя" />
+            <node name="password" value="Пароль" />
+            <node name="loginIsEmpty" value="Имя пользователя не может быть пустым" />
+            <node name="register" value="Зарегистрироваться" />
+        </node>
+        <node name="CustomCatalogDialog">
+            <node name="title" value="Reader: добавление каталога" />
+            <node name="catalogTitle" value="Название" />
+            <node name="catalogUrl" value="URL" />
+            <node name="catalogSummary" value="Описание" />
+            <node name="catalogTitleExample" value="Напр.: Epub Books" />
+            <node name="catalogUrlExample" value="Напр.: http://www.epubbooks.ru/index.xml" />
+            <node name="catalogSummaryExample" value="Напр.: Книги на русском языке" />
+            <node name="titleIsEmpty" value="Название не может быть пустым" />
+            <node name="urlIsEmpty" value="URL не может быть пустым" />
+            <node name="invalidUrl" value="Неверный URL" />
+            <node name="titleAlreadyExists" value="Такое название уже использовано" />
+            <node name="siteAlreadyExists" value="Этот каталог уже есть в списке" />
+            <node name="urlNotAvailable" value="Каталог недоступен" />
+        </node>
+        <node name="languageFilterDialog">
+            <node name="title" value="Фильтр по языку" />
+        </node>
+        <node name="tips">
+            <node name="title" value="Совет дня" />
+            <node name="initializationText" value="Хотите ли вы раз в день получать советы по использованию Reader? Новые советы будут загружаться с сервера Reader. Это потребует скачивания 1-2 килобайт в неделю.
+
+Включить советы?" />
+            <node name="dontShowAgain" value="Больше не показывать" />
+            <node name="more" value="Ещё" />
+        </node>
+    </node>
+    <node name="errorMessage">
+        <node name="cannotRunAndroidMarket" value="Не удается запустить Android Market. Попробуйте установить %s вручную" />
+        <node name="textNotFound" value="В этой книге нет такого текста" />
+        <node name="bookNotFound" value="Нет подходящих книг" />
+        <node name="bookmarkNotFound" value="Нет подходящих закладок" />
+        <node name="cannotOpenBook" value="Не удается открыть книгу" />
+        <node name="dictionaryIsNotInstalled" value="Не удалось запустить словарь" />
+        <node name="permissionDenied" value="Нет доступа к файлам" />
+        <node name="noFavorites" value="Вы пока не добавили ни одной книги в «Избранное»" />
+        <node name="noSeries" toBeTranslated="true" value="Не найдено ни одной серии книг" />
+        <node name="emptyCatalog" value="Каталог пуст" />
+        <node name="emptyBasket" value="В корзине нет книг" />
+        <node name="emptyNetworkSearchResults" value="Не найдено ни одной книги" />
+    </node>
+    <node name="external">
+        <node name="browser" value="браузере" />
+        <node name="defaultBrowser" value="браузере" />
+    </node>
+    <node name="mobipocketPlugin">
+        <node name="unknown" value="неизвестная ошибка" />
+        <node name="unsupportedCompressionMethod" value="неподдерживаемый метод сжатия" />
+        <node name="encryptedFile" value="файл защищен DRM" />
+    </node>
+    <node name="crash">
+        <node name="fixBooksDirectory">
+            <node name="title" value="Проблема у Reader" />
+            <node name="text" value="Reader не может сохранить временные файлы. Возможно, вы забыли вставить карту памяти, или она недоступна из-за подключения к компьютеру. Пожалуйста, исправьте эту проблему или введите другое имя каталога для временных файлов." />
+        </node>
+        <node name="missingNativeLibrary">
+            <node name="title" value="Проблема у Reader" />
+            <node name="text" value="Не удаётся загрузить нативную библиотеку. Возможно, Reader неправильно установлен. Если это сообщение повторяется при каждой попытке запуска, попробуйте переустановить Reader." />
+        </node>
+    </node>
+    <node name="error">
+        <node name="bookReading">
+            <node name="title" value="Проблема у Reader" />
+        </node>
+    </node>
+    <node name="bookReadingException">
+        <node name="errorReadingFile" value="Ошибка при чтении &apos;%s&apos;" />
+        <node name="errorReadingZip" value="Ошибка при разархивировании &apos;%s&apos;" />
+        <node name="pluginNotFound" value="Нет плагина для &apos;%s&apos;" />
+        <node name="unknownPluginType" value="Неизвестный тип плагина: %s" />
+        <node name="fileNotFound" value="Не найти файл: %s" />
+        <node name="opfFileNotFound" value="Не удалось найти OPF в %s" />
+        <node name="unsupportedFileFormat" value="Не поддерживается формат файла &apos;%s&apos;" />
+        <node name="errorParsingRtf" value="Ошибка при чтении RTF-файла %s" />
+    </node>
+    <!-- VUDROID -->
+    <node name="vudroid">
+        <node name="vu_exit" value="Выход" />
+        <node name="vu_goto" value="Перейти" />
+        <node name="vu_fullscreen" value="Полный экран" />
+        <node name="vu_fullscreen_on" value="Полный экран вкл" />
+        <node name="vu_fullscreen_off" value="Полный экран выкл" />
+    </node>
+    <!-- OTHER -->
+    <node name="other">
+        <node name="day_night_pref" value="Автосмена День-Ночь"></node>
+        <node name="autopagging_pref" value="Автоперелистывание"></node>
+        <node name="reminder_pref" value="Напоминание через"></node>
+        <node name="reminder_msg" value="Напоминаем Вам, что длительное чтение ухудшает ваше зрение.\n Берегите Ваши глаза! \n Еще пригодятся ;)"></node>
+        <node name="theme_title_pref" value="Темы"></node>
+        <node name="menu_bookmark" value="Закладки"></node>
+        <node name="menu_quotes" value="Цитаты"></node>
+        <node name="menu_info" value="О программе"></node>
+        <node name="menu_preferences" value="Настройки"></node>
+        <node name="menu_search" value="Поиск"></node>
+        <node name="mainscr_book_current" value="Текущая книга"></node>
+        <node name="mainscr_book_lastopened" value="Последние открытые"></node>
+        <node name="mainscr_libraries_netrwork" value="Сетевые библиотеки"></node>
+        <node name="mainscr_libraries_search" value="Поиск онлайн"></node>
+        <node name="mainscr_libraries_read" value="Прочитанные"></node>
+        <node name="mainscr_libraries_litres" value="LitRes каталог"></node>
+        <node name="mainscr_libraries_filesys" value="Файлы на моем устройстве"></node>
+        <node name="hours" value="Часы:"></node>
+        <node name="minutes" value="Минуты:"></node>
+        <node name="seconds" value="Секунды:"></node>
+        <node name="pref_start_day_mode" value="Дневной режим с"></node>
+        <node name="pref_end_day_mode" value="Ночной режим с"></node>
+        <!-- THEMES -->
+        <node name="theme_white_tree" value="Белое дерево"></node>
+        <node name="theme_my_black" value="Мраморная стена"></node>
+        <node name="theme_laminat" value="Светлое дерево"></node>
+        <node name="theme_redtree" value="Красное дерево"></node>
+        <node name="theme_stellaj" value="Стеллаж"></node>
+        <!-- PREFERENCES -->
+        <node name="pref_generel" value="General"></node>
+        <node name="pref_generel_sum" value="General settings"></node>
+		<node name="ok" value="Хорошо"></node>
+	 <node name="cancel" value="Отменить"></node>
+    </node>
+
+<node name="faq">
+        <node name="quest0" value="Основные возможности программы"></node>
+        <node name="quest0_answer" value="<html><p>1. FullReader+ поддерживает все основные форматы текстовых документов: fb2, epub, doc, rtf, txt, html, mobi, pdf, djvu, xps, cbz, Docx (Поддержка Android 4.0, и Выше), odf (Android от 3.0, и выше), cbr (Android от 2.3 и выше), zip и rar с текстовыми форматами внутри, список будет пополняться с обновлениями.
+  </p>
+<p>2. К Вашим услугам удобный инструментарий для работы с текстом:
+  </p>
+<p>•	выделяйте понравившиеся фрагменты и сохраняйте их как цитаты;
+  </p>
+<p>•	посылайте тексты или выдержки из них по электронной почте всего одним кликом;
+  </p>
+<p>•	обменивайтесь цитатами с друзьями через социальные сети (требуется наличие программы для работы с соцсетью);
+  </p>
+<p>•	отправляйте цитаты через службу  SMS;</br>
+  </p>
+<p>•	делайте быстрые закладки на страницах, чтобы продолжить чтение с того места, где остановились;
+  </p>
+<p>•	переведите выделенный фрагмент текста с помощью встроенного переводчика.
+  </p>
+<p>3.	Так же в Вашем распоряжении бесплатный, неограниченный онлайн запас всевозможных книг, доступ к которым Вы сможете получить через OPDS библиотеки которые без проблем сможете добавить сами на свое усмотрение. 
+  </p>
+<p>4.	Легко настраиваемый режим «День-Ночь», позволяющий комфортно читать в любое время суток.</p>
+<p>5.	Если вы читаете с одного и более устройств вам обязательно придется по вкусу онлайн синхронизация закладок, цитат, последних страниц чтения через облачное хранилище данных Dropbox.</p>
+<p>6.	В читалке доступны «тап-зоны» которые можно настроить максимально удобно под вас.</p>
+<p>7.	Чтение Docx доступно через плагин который читалка вам предложит установить при попытке открыть файл с расширением Docx, после установки плагина открываете тот же файл и с удовольствием просматриваете его содержимое.</p>
+<p>8.	Внутренний файловый браузер FullReader+ позволит вам выполнять различные операции над файлами, такие как копирование файла, удаление, переименовывание и др. </p>
+</html>"></node>
+
+        <node name="quest1" value="Общие настройки программы"></node>
+        <node name="quest1_answer" value="<html><p>Общие настройки позволяют: </p>
+<p>•	выбрать язык интерфейса (Русский, Украинский, Немецкий, Английский, Французский); </p>
+<p>•	установить напоминание о времени, которое Вы уже провели за чтением (час, два и более)</p>
+<p>•	выбрать удобную ориентацию экрана (вертикальный/горизонтальный) и либо закрепить его на постоянной основе, либо сделать динамическим – автоматически меняющимся при повороте устройства на 90 градусов.</p></html>"></node>
+		
+        <node name="quest2" value="Настройки внешнего вида"></node>
+        <node name="quest2_answer" value="<html><p>Настройки внешнего вида предусматривают:</p>
+<p>•	выбор Темы оформления интерфейса;</p>
+<p>•	настройку яркости простым движением пальца вверх-вниз по левому краю экрана.</p></html>"></node>
+
+        <node name="quest3" value="Настройки текста"></node>
+        <node name="quest3_answer" value="<html><p>В этом пункте Вы можете:</p>
+<p>•	выбрать свойства шрифтов (сглаженные или острые), гарнитур, размер и начертание шрифтов;</p>
+<p>•	установить комфортное для Вас выравнивание текста (по левому или правому краю, по ширине листа или по центру);</p>
+<p>•	выбрать междустрочные интервалы и абзацные отступы;</p>
+<p>•	задать настройки для переноса (по слогам/по словам);</p>
+<p>•	настроить другие стили оформления эпиграфов и заголовков текста.</p></html>"></node>
+
+        <node name="quest4" value="Цвета и обои"></node>
+        <node name="quest4_answer" value="<html><p>В этом пункте можно выбрать фон под чтение из предоставленного списка или загрузить свой фон или самостоятельно добавить фоны для чтения (Поместить файлы фонов в /sdcard/Wallpapers), если папка не создана, ее нужно создать. Поддерживаемые форматы фонов: jpg и png. Максимальный размер не должен превышать 2560x1440.
+Отображение фона можно выровнять максимально удобно для вас используя специальный пункт «Выравнивание фона»
+Так же в этом пункте можно настроить цвет шрифта и других текстовых элементов читалки.</p></html>"></node>
+		
+		<node name="quest5" value="Другие настройки (день/ночь, словари, перелистывание страниц)"></node>
+        <node name="quest5_answer" value="<html>
+          <p>- Данные настройки быстро переведут устройство в режим «День/Ночь» для комфортного чтения при любом освещении – автоматически (при установленном Вами временном пороге, например, 20.00) или позволят делать это вручную. Также Вы можете выбрать режим двойного нажатия, который будет открывать диалог перемещения и меню.</p>
+          <p>- В настройке словарей можно выбрать один из 4 словарей, и задать некоторые функции для них</p>
+          <p>- Чтобы не отвлекаться от любимой книги, установите удобный режим перелистывания страниц: автоматически через избранный вами интервал (например, каждые 30 секунд) или вручную прикосновением к экрану (качелькой громкости). Процесс смены листа будет реалистичным и красивым благодаря анимации: Вы можете сделать её трёхмерной, настроить в виде сдвига или сдвига с перекрытием, а также выбрать скорость перелистывания страниц. Наша программа позволят двигать листы вертикально как ленту или горизонтально как обычную электронную книгу.</p></html>"></node>
+		
+		<node name="quest6" value="Дополнительные функции"></node>
+		<node name="quest6_answer" value="<html>
+          <p>•	  При чтении в меню можно выбрать режим просмотра на весь экран. </p>
+            
+<p>•	Добавление  любых TTF/OTF шрифтов (поместите их в папку Fonts, /sdcard/Fonts, затем просто в настройках выбирайте нужный вам шрифт); </p>
+<p>•	При выделении цитаты появляется набор кнопок для сохранения, отправки цитаты в соц. сети, копирования в буфер обмена и перевода на другие языки</p></html>"></node>
+		
+		<node name="quest7" value="Синхронизация"></node>
+        <node name="quest7_answer" value="<html><p>Здесь вы сможете активировать онлайн синхронизацию ваших закладок, цитат и последних страниц чтения с помощью облачного хранилища данных Dropbox. Эта функция необходима для того, чтобы вы могли комфортно читать одну и ту же книгу на любом вашем устройстве. Также эта возможность позволит восстановить информацию при каких-либо сбоях работы системы.
+Для использования синхронизации вам нужно авторизоваться с помощью своего Dropbox аккаунта (внимание: на всех устройствах на которых вы хотите использовать синхронизацию должен быть один и тот же аккаунт Dropbox). Для корректной работы функции, обязательным условием является наличие книги на каждом из устройств, поскольку реализована синхронизация лишь отдельных элементов документа, который вы читаете.</p></html>"></node>
+        
+        <node name="quest8" value="Тап-зоны"></node>
+        <node name="quest8_answer" value="<html><p>С помощью этой возможности вы сможете индивидуально настроить  управление функциями приложения во время чтения. Так, с помощью одного клика на определенную область экрана можно менять яркость, шрифт, настройки цвета и много другое. Для вас реализована горизонтальная и вертикальная ориентация функции, в каждой из которых можно настроить по 3 активных зоны.</p></html>"></node>
+<node name="quest10" value="Сторонние библиотеки"></node>
+<node name="quest10_answer" value="<html>
+<p>1. A Comic Viewer</p>
+<p>https://github.com/robotmedia/droid-comic-viewer</p>
+<p>Copyright 2009 Robot Media SL
+
+Licensed under the Apache License, Version 2.0 (the «License»);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+ 
+http://www.apache.org/licenses/LICENSE-2.0
+  
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an «AS IS» BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</p>
+
+<p>2. FBReader</p>
+<p>https://github.com/geometer/FBReaderJ</p>
+<p>Copyright (C) 2007-2014 Geometer Plus <contact@geometerplus.com>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+02110-1301, USA.</p>
+
+<p>3. JUnRAR - free utility for RAR archives</p>
+<p>License for use and distribution of
+FREE portable version
+
+      The source code of UnRAR utility is freeware. This means:
+
+   1. All copyrights to RAR and the utility UnRAR are exclusively
+      owned by the author - Alexander Roshal.
+
+   2. The UnRAR sources may be used in any software to handle RAR
+      archives without limitations free of charge, but cannot be used
+      to re-create the RAR compression algorithm, which is proprietary.
+      Distribution of modified UnRAR sources in separate form or as a
+      part of other software is permitted, provided that it is clearly
+      stated in the documentation and source comments that the code may
+      not be used to develop a RAR (WinRAR) compatible archiver.
+
+   3. The UnRAR utility may be freely distributed. It is allowed
+      to distribute UnRAR inside of other software packages.
+
+   4. THE RAR ARCHIVER AND THE UnRAR UTILITY ARE DISTRIBUTED «AS IS».
+      NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED.  YOU USE AT 
+      YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, 
+      DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING
+      OR MISUSING THIS SOFTWARE.
+
+   5. Installing and using the UnRAR utility signifies acceptance of
+      these terms and conditions of the license.
+
+   6. If you don't agree with terms of the license you must remove
+      UnRAR files from your storage devices and cease to use the
+      utility.
+
+      Thank you for your interest in RAR and UnRAR.
+
+
+                                            Alexander L. Roshal</p>
+<p>4. LineBreaker</p>
+<p>Copyright (C) 2008-2012 Wu Yongwei <wuyongwei at gmail dot com>
+Copyright (C) 2012 Tom Hacohen <tom dot hacohen at samsung dot com>
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the author be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software.  If you use this software
+   in a product, an acknowledgement in the product documentation would
+   be appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not
+   be misrepresented as being the original software.
+3. This notice may not be removed or altered from any source
+   distribution.</p>
+
+<p>5. MuPDF</p> 
+<p>http://www.mupdf.com/</p>
+<p>Copyright 2006-2013 Artifex Software, Inc.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/</p>
+
+<p>6. OpenOffice Document Reader</p>
+<p>http://blog.tomtasche.at/p/openoffice-document-reader_9.html</p>
+<p>Copyright (C) 2010  Thomas Taschauer - tomtasche@gmail.com
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/</p>
+
+<p>7. Vudroid</p>
+<p>http://code.google.com/p/vudroid/</p>
+<p>Copyright 2010-2011 Pavel Tiunov
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/</p>
+</html>"></node>
+</node>
+	<node name="dropbox_service">
+	    <node name="downloader_title" value="Подождите"/>
+	    <node name="downloader_message" value="Выполняется синхронизация с Dropbox"/>
+	    <node name="sync_dbx_succes" value="Синхронизация завершилась успешно"/>
+	    <node name="sync_dbx_fail" value="Ошибка синхронизации"/>
+	    <node name="sync_dbx_no_network" value="Синхронизация не удалась. Отсутствует подключение к Интернету"/>
+	    <node name="dbx_dialog_title" value="Внимание"/>
+	    <node name="dbx_dialog_message" value="Для того, чтобы синхронизация начала работать необходимо перезапустить приложение"/>
+	    <node name="dbx_dialog_ok_text" value="Да"/>
+	    <node name="dbx_dialog_no_text" value="Нет"/>
+	</node>
+	<node name="tapzones">
+	    <node name="tapzone_choose" value="Выберите тап-зону"/>
+	    <node name="tapzone_horizontal" value="Горизонтальная"/>
+	    <node name="tapzone_vertical" value="Вертикальная"/>
+	    <node name="tapzone_vertical_category" value="Опции для вертикальной тап-зоны"/>
+	    <node name="tapzone_horisontal_category" value="Опции для горизонтальной тап-зоны"/>
+	    <node name="tapzone_top_touch" value="Касание сверху"/>
+	    <node name="tapzone_bottom_touch" value="Касание снизу"/>
+	    <node name="tapzone_center_touch" value="Касание по центру"/>
+	    <node name="tapzone_right_touch" value="Касание справа"/>
+	    <node name="tapzone_left_touch" value="Касание слева"/>
+	    <node name="tapzone_next_page" value="Следующая страница"/>
+	    <node name="tapzone_prev_page" value="Предыдущая страница"/>
+	    <node name="tapzone_day_mode" value="Дневной режим"/>
+	    <node name="tapzone_night_mode" value="Ночной режим"/>
+	    <node name="tapzone_book_info" value="Информация о книге"/>
+	    <node name="tapzone_bookmarks" value="Закладки"/>
+	    <node name="tapzone_quotes" value="Цитаты"/>
+	    <node name="tapzone_preferences" value="Настройки"/>
+	    <node name="tapzone_increase_font" value="Увеличить шрифт"/>
+	    <node name="tapzone_decrease_font" value="Уменьшить шрифт"/>
+	    <node name="tapzone_contents" value="Показать оглавление"/>
+	    <node name="tapzone_search" value="Поиск"/>
+	    <node name="tapzone_navigate" value="Быстрый переход"/>
+	    <node name="tapzone_close" value="Закрыть книгу"/>
+	    <node name="tapzone_library" value="Библиотека"/>
+	    <node name="tapzone_menu" value="Меню"/>
+	    <node name="tapzone_colors" value="Настройки цвета"/>
+	    <node name="tapzone_next_book" value="Следующая книга"/>
+	    <node name="tapzone_previous_book" value="Предыдущая книга"/>
+	    <node name="tapzone_fullscreen" value="На весь экран"/>
+	    <node name="tapzone_default" value="По умолчанию"/>
+	</node>
+	<node name="theme_restart_dialog">
+	    <node name="theme_restart_dialog_title" value="Внимание"/>
+	    <node name="theme_restart_dialog_message" value="Чтобы настройки темы вступили в силу необходимо перезапустить приложение"/>
+	    <node name="theme_restart_dialog_ok" value="Да"/>
+	</node>
+</resources>

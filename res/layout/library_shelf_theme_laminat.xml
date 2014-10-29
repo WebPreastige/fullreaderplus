@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/shelf_layout" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/theme_laminat_shalf_left" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/theme_laminat_shalf_without" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/theme_laminat_shalf_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fr_ll_lastopened_body_start_scr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_library_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+           android:layout_marginBottom="@dimen/padding_lib_img"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tw_library_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#89623e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tw_library_annot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ad7e52"
+                android:textSize="14sp" 
+                android:text="TextView" />
+            
+            <TextView
+                android:id="@+id/tw_library_dropbox_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ad7e52"
+                android:textSize="10sp"
+                android:visibility="gone" 
+                android:text="TextView" />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

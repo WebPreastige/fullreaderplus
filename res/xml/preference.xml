@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"  >
+            <intent android:action="android.intent.action.VIEW"
+                    android:targetPackage="org.geometerplus.android.fbreader.preferences"
+                    android:targetClass="org.geometerplus.android.fbreader.preferences.PreferenceActivity"
+                    android:data="preferences://activity2"/>
+ </PreferenceScreen>

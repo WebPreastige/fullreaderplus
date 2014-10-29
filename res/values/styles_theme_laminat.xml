@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Laminat" parent="@style/Theme.Sherlock">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Laminat</item>
+        <item name="actionBarTabBarStyle">@style/Theme.Laminat.TabBar</item>
+
+        <!-- <item name="scrollbarBg">@style/Theme.Laminat.scrollBg</item> -->
+        <item name="android:buttonStyle">@style/Theme.Laminat.Buttons</item>
+        <item name="android:seekBarStyle">@style/Theme.Laminat.SeekBar</item>
+        <item name="android:textViewStyle">@style/Theme.Laminat.TextView</item>
+        <item name="android:radioButtonStyle">@style/Theme.Laminat.MyRadioButton</item>
+        <item name="android:checkboxStyle">@style/Theme.Laminat.MyCheckButton</item>
+        <item name="actionBarTabStyle">@style/Theme.Laminat.ActionBarTabStyle</item>
+               <item name="android:windowBackground">@drawable/theme_laminat_shelf</item>
+        
+		    <item name="android:dropDownListViewStyle">@style/Theme.Laminat.Widget.DropDownListView</item>
+		    <item name="actionBarWidgetTheme">@style/Theme.Laminat.Widget.stylingactionbar.widget</item>
+		    
+		    <item name="android:textColorSecondary">#ad7e52</item>  
+		    
+        <item name="android:listViewStyle">@style/Widget.MyTheme.ListView</item>
+        <item name="android:scrollViewStyle">@style/Widget.MyTheme.ScrollView</item>
+    </style>
+
+    <style name="Widget.MyTheme.ListView" parent="android:Widget.ListView">
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="Widget.MyTheme.ScrollView" parent="android:Widget.ScrollView">
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="ActionBar.Solid.Laminat" parent="@style/Widget.Sherlock.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_body_theme_laminat</item>
+        <item name="background">@drawable/ab_body_theme_laminat</item>
+        <item name="titleTextStyle">@style/Theme.Laminat.ActionBar.TitleTextStyle</item>
+        <item name="subtitleTextStyle">@style/Theme.Laminat.ActionBar.SubtitleTextStyle</item>
+    </style>
+
+    <style name="Theme.Laminat.ActionBar.TitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/theme_laminat_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Laminat.ActionBar.SubtitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/theme_laminat_text</item>
+    </style>
+    
+    <style name="Theme.Laminat.Buttons" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/bg_btn_theme_laminat</item>
+        <item name="android:textColor">@color/theme_laminat_text</item>
+    </style>
+
+    <style name="Theme.Laminat.scrollBg">
+        <item name="android:background">@drawable/theme_laminat_scroll_bg</item>
+    </style>
+
+    <style name="Theme.Laminat.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progress_theme_laminat</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_progress_empty_theme_laminat</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_theme_laminat</item>
+        <item name="android:thumbOffset">-3dp</item>
+        </style>
+
+    <style name="Theme.Laminat.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/theme_laminat_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Theme.Laminat.TabBar" parent="Widget.Sherlock.ActionBar.TabBar">
+        <item name="android:background">@drawable/theme_laminat_tab</item>
+        <item name="background">@drawable/theme_laminat_tab</item>
+    </style>
+
+    <style name="Theme.Laminat.MyRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radio_button_theme_laminat</item>
+    </style>
+
+    <style name="Theme.Laminat.MyCheckButton" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_button_theme_laminat</item>
+    </style>
+    
+   <style name="Theme.Laminat.ActionBarTabStyle" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+      
+    <style name="Theme.Laminat.Widget.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/custom_edittext_theme_laminat</item>
+    </style> 
+    
+                
+	<style name="Theme.Laminat.Widget.DropDownListView" parent="@android:style/Widget.ListView.DropDown">
+	    <item name="android:listSelector">@drawable/ab_selectable_bg_theme_laminat</item>
+	</style>
+	
+    <style name="Theme.Laminat.Widget.stylingactionbar.widget" parent="@android:style/Theme">
+    <item name="android:dropDownListViewStyle">@style/Theme.Laminat.Widget.DropDownListView</item>
+         <item name="android:textColor">@color/theme_laminat_text</item>
+ </style>
+
+    
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_lib_img">4dp</dimen>
+    <dimen name="padding_startsctr_third">30dp</dimen>
+    <dimen name="padding_startsctr_third_unplash">20dp</dimen>
+    
+    <dimen name="padding_startsctr_shelf_measure_unplash">30dp</dimen>
+    <dimen name="padding_startsctr_third_shelf_measure_unplash">50dp</dimen>
+    
+</resources>

@@ -1,0 +1,5 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+     <style name="settingsScreen" >
+         <item name="android:background">@drawable/theme_laminat_bg</item>
+     </style>
+</resources>

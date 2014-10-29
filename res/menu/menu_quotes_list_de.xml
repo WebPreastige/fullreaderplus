@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+       <item android:id="@+id/open"
+             android:title="Offnen" />
+       <item android:id="@+id/delete"
+             android:title="Löschen" />
+       <item android:id="@+id/share"
+             android:title="Aktie" />
+       <item android:id="@+id/fb_share"
+             android:title="FB Aktie" />
+</menu>

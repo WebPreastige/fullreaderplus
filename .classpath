@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/microsoft-translator-java-api-0.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/tapjoyconnectlibrary.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/commons"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/OpenDocument.java"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/svm"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

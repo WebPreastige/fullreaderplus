@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.myBlack" parent="@style/Theme.Sherlock">
+        <item name="actionBarStyle">@style/ActionBar.Solid.myBlack</item>
+        <item name="actionBarTabBarStyle">@style/Theme.myBlack.TabBar</item>
+
+        <!-- <item name="scrollbarBg">@style/Theme.myBlack.scrollBg</item> -->
+        <item name="android:buttonStyle">@style/Theme.myBlack.Buttons</item>
+        <item name="android:seekBarStyle">@style/Theme.myBlack.SeekBar</item>
+        <item name="android:textViewStyle">@style/Theme.myBlack.TextView</item>
+        <item name="android:radioButtonStyle">@style/Theme.myBlack.MyRadioButton</item>
+        <item name="android:checkboxStyle">@style/Theme.myBlack.MyCheckButton</item>
+        <item name="android:windowBackground">@drawable/theme_black_shelf</item>
+        <item name="actionBarTabStyle">@style/Theme.myBlack.ActionBarTabStyle</item>
+        
+                  <item name="android:popupMenuStyle">@style/Theme.myBlack.Widget.PopupMenu</item>
+		    <item name="android:dropDownListViewStyle">@style/Theme.myBlack.Widget.DropDownListView</item>
+		    <item name="android:actionBarWidgetTheme">@style/Theme.myBlack.Widget.stylingactionbar.widget</item>
+ 
+         <item name="android:textColorSecondary">#eeeeee</item>  
+         
+        <item name="android:listViewStyle">@style/Widget.MyTheme.ListView</item>
+        <item name="android:scrollViewStyle">@style/Widget.MyTheme.ScrollView</item>
+    </style>
+
+    <style name="Widget.MyTheme.ListView" parent="android:Widget.ListView">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:windowBackground">@drawable/theme_black_shelf</item>
+    </style>
+
+    <style name="Widget.MyTheme.ScrollView" parent="android:Widget.ScrollView">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:windowBackground">@drawable/theme_black_shelf</item>
+    </style>
+
+    <style name="ActionBar.Solid.myBlack" parent="@style/Widget.Sherlock.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_body_theme_black</item>
+        <item name="background">@drawable/ab_body_theme_black</item>
+        <item name="titleTextStyle">@style/Theme.myBlack.ActionBar.TitleTextStyle</item>
+        <item name="subtitleTextStyle">@style/Theme.myBlack.ActionBar.SubtitleTextStyle</item>
+        <item name="actionBarTabStyle">@style/Theme.myBlack.ActionBarTabStyle</item>
+     </style>
+
+    <style name="Theme.myBlack.ActionBar.TitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/theme_black_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.myBlack.ActionBar.SubtitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/theme_black_text</item>
+        <item name="android:windowBackground">@drawable/theme_black_shelf</item>
+    </style>
+    
+    <style name="Theme.myBlack.Buttons" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/bg_btn_theme_black</item>
+        <item name="android:textColor">@color/theme_black_text</item>
+    </style>
+
+    <style name="Theme.myBlack.scrollBg">
+        <item name="android:background">@drawable/theme_black_scroll_bg</item>
+    </style>
+
+    <style name="Theme.myBlack.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progress_theme_black</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_progress_empty_theme_black</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_theme_black</item>
+         <item name="android:thumbOffset">-3dp</item>
+        </style>
+
+    <style name="Theme.myBlack.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/theme_black_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Theme.myBlack.TabBar" parent="Widget.Sherlock.ActionBar.TabBar">
+        <item name="android:background">@drawable/theme_black_bg_for_ok_cancel</item>
+        <item name="background">@drawable/theme_black_bg_for_ok_cancel</item>
+    </style>
+    
+    <style name="Theme.myBlack.MyRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radio_button_theme_black</item>
+    </style>
+
+    <style name="Theme.myBlack.MyCheckButton" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_button_theme_black</item>
+    </style>
+    
+   <style name="Theme.myBlack.ActionBarTabStyle" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+   
+    <style name="Theme.myBlack.Widget.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/custom_edittext_theme_black</item>
+    </style> 
+    
+    
+    
+    <style name="Theme.myBlack.Widget.PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+    <item name="android:popupBackground">@drawable/ab_selectable_bg_theme_black</item> 
+	</style>
+     
+	<style name="Theme.myBlack.Widget.DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+	    <item name="android:listSelector">@drawable/ab_selectable_bg_theme_black</item>
+	</style>
+	
+    <style name="Theme.myBlack.Widget.stylingactionbar.widget" parent="@android:style/Theme.Holo">
+    <item name="android:popupMenuStyle">@style/Theme.myBlack.Widget.PopupMenu</item>
+    <item name="android:dropDownListViewStyle">@style/Theme.myBlack.Widget.DropDownListView</item>
+         <item name="android:textColor">@color/theme_black_text</item>
+   
+</style>
+    </resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="oval" >
+            <size
+                android:height="20dp"
+                android:width="20dp" />
+
+            <solid
+                android:color="@color/theme_black_prgbar_slider_empty" />
+        </shape>
+    </item>
+    
+    <item android:left="15dp" android:right="15dp" android:top="15dp" android:bottom="15dp">
+        <shape android:shape="oval" >
+            <solid
+                android:color="@color/theme_black_prgbar_slider_full" />
+
+            <size
+                android:height="10dp"
+                android:width="10dp" />
+            
+            </shape>
+    </item>
+</layer-list>
